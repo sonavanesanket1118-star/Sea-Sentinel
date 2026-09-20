@@ -20,10 +20,10 @@ export default function Footer() {
             <p className="text-xs text-command-muted leading-relaxed">
               AI-Powered Automated Underwater Marine Debris & Acoustic Anomaly Detection for Side-Scan Sonar (SSS) Imagery.
             </p>
-            <div className="inline-flex items-center space-x-2 px-2.5 py-1 rounded bg-ocean-800 border border-ocean-border text-[11px] font-mono text-sonar-cyan">
+            {/* <div className="inline-flex items-center space-x-2 px-2.5 py-1 rounded bg-ocean-800 border border-ocean-border text-[11px] font-mono text-sonar-cyan">
               <Sparkles className="w-3 h-3 text-sonar-green" />
               <span>Smart India Hackathon 2025</span>
-            </div>
+            </div> */}
           </div>
 
           {/* Col 2: Institutional Stakeholders */}
@@ -92,7 +92,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-6 border-t border-ocean-border/60 flex flex-col sm:flex-row items-center justify-between text-[11px] text-command-muted">
-          <p>© 2025-2026 SonarGuard AI • Developed for Smart India Hackathon 2025.</p>
+          {/* <p>© 2025-2026 SonarGuard AI • Developed for Smart India Hackathon 2025.</p> */}
           <div className="flex items-center space-x-6 mt-4 sm:mt-0 font-mono">
             <span className="hover:text-sonar-cyan transition-colors cursor-pointer">TERMS OF PATROL</span>
             <span className="hover:text-sonar-cyan transition-colors cursor-pointer">BATHYMETRY API</span>
